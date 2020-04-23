@@ -1,0 +1,25 @@
+{
+  "name": "protractor-jasmine",
+  "version": "1.0.0",
+  "description": "A protractor framework to run e2e tests in browser using jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarbir22/protractor-jasmine.git"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "webdriver",
+    "automation"
+  ],
+  "author": "Amarbir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarbir22/protractor-jasmine/issues"
+  },
+  "homepage": "https://github.com/amarbir22/protractor-jasmine#readme"
+}
