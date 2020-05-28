@@ -14,6 +14,6 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm run webdriver-manager update
+      - run: npm run webdriver-manager -- update --versions.chrome="70.0.3538.16"
       - run: google-chrome --version
       - run: npm run test
