@@ -10,14 +10,10 @@ workflows:
       - build
       - test
 jobs:
-  build:
+  test:
     executor: node
     steps:
       - checkout
       - run: npm install
       - run: npm run webdriver-manager update
-  test:
-    executor: node
-    steps:
-      - checkout
       - run: npm run test
