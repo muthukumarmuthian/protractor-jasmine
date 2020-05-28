@@ -15,4 +15,5 @@ jobs:
       - checkout
       - run: npm install
       - run: npm run webdriver-manager update
+      - run: google-chrome --version
       - run: npm run test
